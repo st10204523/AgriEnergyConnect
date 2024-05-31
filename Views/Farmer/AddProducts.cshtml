@@ -1,0 +1,22 @@
+﻿@model Product
+<h1>Add Product</h1>
+<form asp-controller="Farmer" asp-action="AddProduct" method="post">
+    <div class="form-group">
+        <label asp-for="ProductName" class="form-label">Product Name</label>
+        <input asp-for="ProductName" class="form-control" />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductCategory" class="form-label">Product Category</label>
+        <input asp-for="ProductCategory" class="form-control" />
+        <span asp-validation-for="ProductCategory" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductProductionDate" class="form-label">Product Production Date</label>
+        <input asp-for="ProductProductionDate" class="form-control" />
+        <span asp-validation-for="ProductProductionDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Add Product</button>
+    </div>
+</form>

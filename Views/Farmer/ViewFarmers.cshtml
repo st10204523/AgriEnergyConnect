@@ -1,0 +1,18 @@
+﻿<h1>Farmers</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var farmer in Model)
+        {
+            <tr>
+                <td>@farmer.Name</td>
+                <td>@farmer.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .custom-card {
+        background-color: #B5C99A;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Agri-Energy Connect</h1>
+        <p class="lead">Bridging the gap between the agricultural sector and green energy technology providers!</p>
+        <p>Please login to access the application:</p>
+
+        <a asp-controller="Home" asp-action="Login">Log In</a>
+        <h5 class="text-danger">@ViewBag.Error</h5>
+    </div>
+
+
+    <div class="card custom-card">
+        <div class="card-body text-center">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p>
+                <strong>Email:</strong> Agri-EnergyConnect@gmail.com<br>
+                <strong>Phone:</strong> 0655469809<br>
+                <strong>Address:</strong> Durban, Kwa-ZuluNatal, South Africa<br>
+            </p>
+        </div>
+    </div> 
+</div>
