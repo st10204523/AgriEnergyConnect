@@ -59,5 +59,5 @@ Click on the "Search" button to view filtered product results.
 
 ## Support
 For any issues or inquiries, please contact our support team:
-Email: support@agrienergyconnect.com
-Phone: +1-800-123-4567
+Email: AgriEnergyConnect@gmail.com
+Phone: 0659456345
